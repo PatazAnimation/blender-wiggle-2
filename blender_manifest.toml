@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "blender_wiggle_2"
+version = "2.0.2"
+name = "Wiggle 2"
+tagline = "Simulate spring-like physics on bone transforms"
+maintainer = "Daniel Salazar"
+type = "add-on"
+
+website = "https://github.com/PatazAnimation/blender-wiggle-2"
+
+tags = ["Animation", "Rigging"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+privacy = ["Public"]
