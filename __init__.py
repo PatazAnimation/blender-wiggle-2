@@ -14,25 +14,6 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
-#
-# Modifications made:
-# - Fixed bake error in newer Blender versions.
-# - Updated bl_info.
-# - Cleaned up script.
-# - Added new settings and algorithm for full bone collisions.
-
-bl_info = {
-    "name": "Wiggle 2 (Fork)",
-    "author": "Labhatorian",
-    "original_author": "Steve Miller",
-    "version": (2, 0, 2),
-    "blender": (3, 00, 0),
-    "location": "3D Viewport > Animation Panel",
-    "description": "Simulate spring-like physics on Bone transforms",
-    "warning": "",
-    "wiki_url": "https://github.com/Labhatorian/blender-wiggle-2",
-    "category": "Animation",
-}
 
 import bpy
 from mathutils import Vector, Matrix, Euler, Quaternion, geometry
